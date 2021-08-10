@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing Rankings</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Boxing Rankings</h1>
+    <img src="./images/logo.png" alt="logo" width="200" height="150">
+    <ul style="background-color: firebrick;color: white;">
+        <li ><a href="./index.html" style="color: white;">Home</a></li>
+        <li><a href="./Boxing Schedule.html" style="color: white;">Boxing Schedule</a></li>
+        <li><a href="./Boxing Rankings.html" style="color: white;">Boxing Rankings</a></li>
+        <li><a href="#" style="color: white;">Champions</a></li>
+        <li style="color: white;">more 
+            <ul>
+                <li><a href="#" style="color: white;">Tearm</a></li>
+                <li><a href="#" style="color: white;">Contact</a></li>
+            </ul>
+        </li>
+    </ul>
+    <form action="" method="POST">
+       <table>
+           <tbody>
+               <tr>
+                   <td>Name:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <input type="text" name="Name" value="Mohamad" readonly="readonly">
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Family:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <input type="text" placeholder="Enter your family here" name="family">
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Email:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <input type="email" name="Email" value="kazemiraz72@gmail.com">
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Password:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <input type="password" name="password">
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Gender:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <input type="radio" name="gender">Male
+                           <input type="radio" name="gender">Female
+                           <input type="radio" name="gender">Other
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Mobile:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <select name="phone">
+                               <option value="0912">0912</option>
+                               <option value="0911">0911</option>
+                               <option value="0910" selected="selected">0910</option>
+                           </select>
+                           <input type="text" name="number" placeholder="3861101">
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Interest:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <input type="checkbox" name="Music">Music
+                           <input type="checkbox" name="Book" disabled="disabled">Book
+                           <input type="checkbox" name="Philosophy" checked="checked">Philosophy
+                           <input type="checkbox" name="Poker">Poker
+                       </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>My Comment:</td>
+                   <td>
+                       <form action="" method="POST">
+                           <textarea name="comment" cols="30" rows="10">Awesome web design...</textarea>
+                       </form>
+                   </td>
+               </tr>
+           </tbody>
+       </table>
+       <button type="submit">SEND</button> <button type="reset">RESET</button>
+   </form>
+   <p style="text-align: center;">All Rights Reserved &copy; 2021</p>
+</body> 
+</html>
