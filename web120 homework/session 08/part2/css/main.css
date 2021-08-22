@@ -8,17 +8,15 @@ section{
     background-color: #910000;
 }
 .bg{
-    background: url(../images/sm_nyc_banner.jpg) no-repeat center/cover;
+    background-image: url(../images/sm_nyc_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .bg-featured{
-    background-image:url(./image/featured.png), url(./image/sm_nyc_banner.jpg); 
-    background-repeat:no-repeat,no-repeat;  
-    background-size:50%,cover;
+    background:url(../images/featured.png) no-repeat left top,url(../images/sm_nyc_banner.jpg)no-repeat center/cover;
 
 }
 .bg-new{
-    background-image: url(../images/new.png) url(../images/featured.png) url(../images/sm_nyc_banner.jpg);
-    background-position: top right, top left, cover;
-    background-repeat: no-repeat;
-    background-size: 15%,50%,cover;  
+    background: url(../images/new.png) no-repeat right top,url(../images/featured.png) no-repeat left top,url(../images/sm_nyc_banner.jpg) no-repeat center/cover; 
 }
