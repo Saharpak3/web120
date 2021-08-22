@@ -1,0 +1,20 @@
+thead{
+    background-color: rgba(49, 163, 55, 1);
+    color: #fff;
+    height: 35px;
+}
+tbody tr:nth-child(2n+1){
+    background-color: #eae7dd;
+}
+tbody tr:nth-child(2n){
+    background-color: #f4f2ed;
+}
+table{
+    font-family: verdana;
+    border:1px groove; 
+    width: 1500px;
+    height: 400px;
+}
+th{
+    text-align: start;
+}
