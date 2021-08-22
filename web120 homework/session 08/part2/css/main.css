@@ -16,8 +16,9 @@ section{
     background-size:50%,cover;
 
 }
-.new{
+.bg-new{
     background-image: url(../images/new.png) url(../images/featured.png) url(../images/sm_nyc_banner.jpg);
     background-position: top right, top left, cover;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
+    background-size: 15%,50%,cover;  
 }
