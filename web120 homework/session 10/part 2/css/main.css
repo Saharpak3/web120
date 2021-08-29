@@ -1,9 +1,41 @@
-.header {
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+header {
     background-color: #818080;
     padding: 10px 5px;
+    width: 100%;
 }
-.main {
+section {
     background-color: rgb(189, 187, 187);
-    padding: 15px 10px 15px 5px;
-    
+    padding: 0px 10px 0px 5px;
+    width: 80%;
+    display: inline-block;
+}
+.para {
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+}
+aside {
+    background-color: #777;
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 0px;
+    clear: both;
+}
+ul {
+    list-style: none;
 }
