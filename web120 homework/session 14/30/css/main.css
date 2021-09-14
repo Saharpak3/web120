@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    border: 1px solid black;
+}
+td, table {
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+.c1, .c2, .blank, .c3, .c4{
+    border-top: 1px solid black;
+}
+.blank {
+    border-top: transparent;
+}
+.h3, .c2, .c4 {
+    border-right: transparent;
+}
+table td{
+    vertical-align: top;
+}
